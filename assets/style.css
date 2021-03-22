@@ -8,10 +8,12 @@
 
 body {
     background: cyan;
+    height: calc(100vh-30px);
 }
 
 header {
     font-family: cursive;
+    text-align: center;
     width: 90vw;
     box-shadow: 0 0 10px 5px white;
     border-radius: 10px;
@@ -49,10 +51,11 @@ footer span {
 
 header div {
     display: flex;
+    justify-content: center;
 }
 
 header img {
-    width: 50%;
+    width: min(50%, 300px);
 }
 
 /* footer */
