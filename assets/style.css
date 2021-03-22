@@ -6,6 +6,46 @@
     box-sizing: border-box;
 }
 
+body {
+    background: cyan;
+}
+
+header {
+    font-family: cursive;
+    width: 90vw;
+    height: 60vh;
+    box-shadow: 0 0 10px 5px white;
+    border-radius: 10px;
+    margin: 10vh auto;
+    background: rgba(255, 255, 255, 0.788);
+    backdrop-filter: blur(3px);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 1px double antiquewhite;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#health,
+footer span {
+    color: red;
+}
+
+#happiness {
+    color: rgb(190, 190, 0);
+}
+
+#prosperity {
+    color: rgb(0, 132, 255);
+}
+
+/* footer */
+
 footer {
     background: whitesmoke;
     border-top: 1px black solid;
