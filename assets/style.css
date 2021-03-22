@@ -13,10 +13,9 @@ body {
 header {
     font-family: cursive;
     width: 90vw;
-    height: 60vh;
     box-shadow: 0 0 10px 5px white;
     border-radius: 10px;
-    margin: 10vh auto;
+    margin: 5vh auto;
     background: rgba(255, 255, 255, 0.788);
     backdrop-filter: blur(3px);
     -webkit-border-radius: 10px;
@@ -31,6 +30,10 @@ h1 {
     margin-bottom: 20px;
 }
 
+header p {
+    margin-bottom: 20px;
+}
+
 #health,
 footer span {
     color: red;
@@ -42,6 +45,14 @@ footer span {
 
 #prosperity {
     color: rgb(0, 132, 255);
+}
+
+header div {
+    display: flex;
+}
+
+header img {
+    width: 50%;
 }
 
 /* footer */
